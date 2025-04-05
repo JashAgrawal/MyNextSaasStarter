@@ -1,5 +1,5 @@
-export const APP_NAME = "Template";
-export const logoPath = "/logo.png";
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME;
+export const logoPath = process.env.NEXT_PUBLIC_APP_LOGO_PATH;
 
 export const BeforeLoginNavbarRoutes = [
   {
